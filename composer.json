@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-pint",
+    "description": "Tyhp type definitions for laravel/pint 1.32.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.32.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-pint-impl": "~1.32.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-pint-impl"
+        }
+    }
+}
